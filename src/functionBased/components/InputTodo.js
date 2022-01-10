@@ -1,40 +1,48 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import { FaPlusCircle } from "react-icons/fa";
 
-class InputTodo extends Component {
-  state = {
+const InputTodo = (props) => {
+  const [inputText, setInputText] = useState({
     title: "",
-  };
-  onChange = (e) => {
-    this.setState({
+  });
+
+  const onChange = (e) => {
+    setInputText({
+      ...inputText,
       [e.target.name]: e.target.value,
     });
   };
- 
-  handleSubmit = (e) => {
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    if (this.state.title.trim()) {
-      this.props.addTodoProps(this.state.title);
-      this.setState({
+    if (inputText.title.trim()) {
+      props.addTodoProps(inputText.title);
+      setInputText({
         title: "",
       });
     } else {
-      alert("Please add a todo item");
+      alert("Please write item");
     }
   };
-  render() {
-    return (
-      <form onSubmit={this.handleSubmit} className="form-container">
-        <input
-          type="text"
-          placeholder="Add Todo..."
-          className="input-text"
-          value={this.state.title}
-          name="title"
-          onChange={this.onChange}
+
+  return (
+    <form onSubmit={handleSubmit} className="form-container">
+      <input
+        type="text"
+        className="input-text"
+        placeholder="Add todo..."
+        value={inputText.title}
+        name="title"
+        onChange={onChange}
+      />
+      <button className="input-submit">
+        {/* <FaPlusCircle color="darkcyan" size="20px" className="submit-icon" /> */}
+        <FaPlusCircle
+          style={{ color: "darkcyan", fontSize: "20px", marginTop: "2px" }}
         />
-        <button className="input-submit">Submit</button>
-      </form>
-    );
-  }
-}
+      </button>
+    </form>
+  );
+};
+
 export default InputTodo;

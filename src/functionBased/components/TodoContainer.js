@@ -9,6 +9,7 @@ import NotMatch from '../pages/NotMatch';
 import Navbar from './Navbar';
 
 const TodoContainer = () => {
+  // eslint-disable-next-line no-use-before-define
   const [todos, setTodos] = useState(getInitialTodos());
 
   const handleChange = (id) => {
@@ -42,6 +43,7 @@ const TodoContainer = () => {
     setTodos(
       todos.map((todo) => {
         if (todo.id === id) {
+          // eslint-disable-next-line no-param-reassign
           todo.title = updatedTitle;
         }
         return todo;

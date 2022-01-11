@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Calculator App - app for Maths Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, I built a basic React Todoo App that allows CRUD functionalites
+#### Desktop Screenshot
 
-## Available Scripts
+#### Mobile Screenshot
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- HTML and CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- JavaScript
+  
+- React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ESLint
+  
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a href="">Todo App</a>
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this project, I was asked to build a basic calculator app that allows maths magicians to perform basic mathematical calculations.
+I will achieve that by usingb React, a JavaScript library for building user interfaces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation Guide
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `git clone https://github.com/AmaduKamara/amkam-todo-app`
+- `cd amkam-todo-app`
+- `npm install`
+- `npm run start`
 
-### `npm run eject`
+## Author:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Github: @<https://github.com/AmaduKamara>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- LinkedIn: @<https://www.linkedin.com/in/amadu-kamara-3b60a25b/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Twitter: @<https://twitter.com/DevAmkam/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Facebook: @<https://www.facebook.com/amadus.kamara.7/>
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome!
+Feel free to check the <a href="#">issues page</a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
+👍
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Thanks to Microverse code reviewers for your reviews. Your reviews made my code better and enhanced the look of my capstone project.
+- Thanks to my coding partners for collaborating with me on this project, giving suggestions and support.
+- And most importantly, thanks, to Microverse for the opportunity given in making me a Professional remote Software developer. I am looking forward to becoming a great one.

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AmaduKamara/amkam-todo-app/static/css/main.0a9183ab.css",
+    "main.js": "/AmaduKamara/amkam-todo-app/static/js/main.293f8a3a.js",
+    "index.html": "/AmaduKamara/amkam-todo-app/index.html",
+    "main.0a9183ab.css.map": "/AmaduKamara/amkam-todo-app/static/css/main.0a9183ab.css.map",
+    "main.293f8a3a.js.map": "/AmaduKamara/amkam-todo-app/static/js/main.293f8a3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a9183ab.css",
+    "static/js/main.293f8a3a.js"
+  ]
+}

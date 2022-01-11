@@ -1,9 +1,10 @@
-# Calculator App - app for Maths Magicians
+# React Todo AApp
 
 In this project, I built a basic React Todoo App that allows CRUD functionalites
+
 #### Desktop Screenshot
 
-#### Mobile Screenshot
+![Todo App](https://user-images.githubusercontent.com/50941074/148991350-789a78be-dc80-4a6a-b1b4-a8dcbefcc90f.png)
 
 ## Built With
 

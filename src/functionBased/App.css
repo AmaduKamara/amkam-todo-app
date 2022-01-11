@@ -81,6 +81,8 @@ body {
   top: 40px;
   z-index: 10;
   cursor: pointer;
+  background: transparent;
+  border: none;
 }
 
 .menuNav {
@@ -115,10 +117,6 @@ a {
   margin-top: 7rem;
 }
 
-.navBar button {
-  background: transparent;
-  border: none;
-}
 
 /* about page */
 
